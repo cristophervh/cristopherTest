@@ -54,6 +54,9 @@ nav {
   .libretam {
     width: 50%;
   }
+  .btn-outline-success {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -64,6 +67,9 @@ nav {
     display: none;
   }
   .bg-danger {
+    display: none;
+  }
+  .btn-outline-success {
     display: none;
   }
 }
@@ -78,6 +84,10 @@ nav {
   .bg-danger {
     display: none;
   }
+
+  .btn-outline-success {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -88,6 +98,9 @@ nav {
     display: none;
   }
   .bg-danger {
+    display: none;
+  }
+  .btn-outline-success {
     display: none;
   }
 }
