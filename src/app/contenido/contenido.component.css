@@ -1,9 +1,13 @@
 .card {
     width: 98%;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 .container-fluid {
+    margin-top: 20px;
+}
+
+.container {
     margin-top: 20px;
 }
 
@@ -68,13 +72,113 @@ font-weight: bold;
     margin-left: 55%;
 }
 
+.alignfecha {
+    margin-left: 80px;
+}
+
 .fecha {
     margin-left: 10px;
 }
 
-.alignfecha {
-    margin-left: 80px;
+.libreta {
+    margin-left: 90px;
+    margin-top: -20px;
 }
+
+/* Movil */
+
+
+.postedm {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+.anonymousm {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0976b4;
+    font-size: 18px;
+    font-weight: bold;
+    
+    }
+
+
+.alignstarmovil {
+    margin-top: 3%;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.alignfecham {
+text-align: center;}
+
+.alineacionmovil {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.parentesismovil {
+    margin-left: 5px;
+    margin-top: -55px;
+    font-size: 18px;
+}
+
+.fecham {
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+
+.summarym {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.reviewm {
+    font-size: 18px;
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.workm {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
+}
+
+.naranjamovil {
+    margin-top: -20px;
+}
+
+.color1m {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.color2m {
+    font-weight: bold;
+    font-size: 20px;
+    color:#0976b4;
+    margin-top: -20px;
+}
+
+.alturam {
+    margin-top: -20px;
+}
+
+.libretam {
+    margin-left: 100px;
+    margin-top: -55px;
+}
+
+
+
+
 
 
 

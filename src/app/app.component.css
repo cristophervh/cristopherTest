@@ -3,6 +3,11 @@
     margin-left: 20px;
 }
 
+.navbar-toggler {
+    margin-left: 150px;
+} 
+
+
 nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
@@ -12,33 +17,29 @@ nav {
   }
 
 .bi-chat-left-text-fill {
-    margin-left: -80px;
+    margin-left: -120px;
 }
 
 .bi-bell-fill {
-    margin-left: -40px;
+    margin-left: -55px;
 }
 
 .bg-danger{
-    margin-left:-60px;
+    margin-left:-75px;
     margin-top:30px;
 }
 
 .contenedor-map{
     .map{
          position: relative;
-         width: 65px;  
+         width: 80px;  
          margin-left: 50px;
          z-index: 1;
+         filter: drop-shadow(0 0 0 .1px rgba(0, 0, 0, 0.2)); 
+         box-shadow: 0 0 10px rgba(185, 15, 15, 0.3);
+         /* box-shadow: 3px 3px 0 0 rgba(80, 12, 12, 0.3); No guta*/
+
     }
-    /* .location1{
-       position: absolute;  
-           img{ 
-               width: 5%;
-               top: 20%;
-               left: 16.5%;  
-           }
-    } */
 }
 
 
