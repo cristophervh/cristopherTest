@@ -1,92 +1,93 @@
 .logo {
-    width: 250px;
-    margin-left: 20px;
+  width: 250px;
+  margin-left: 20px;
 }
 
 .navbar-toggler {
-    margin-left: 150px;
-} 
-
+  margin-left: 150px;
+}
 
 nav {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  }
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
 
-  .form-control {
-    margin-left: 1100px;
-  }
+.form-control {
+  margin-left: 1100px;
+}
 
 .bi-chat-left-text-fill {
-    margin-left: -120px;
+  margin-left: -120px;
 }
 
 .bi-bell-fill {
-    margin-left: -55px;
+  margin-left: -55px;
 }
 
-.bg-danger{
-    margin-left:-75px;
-    margin-top:30px;
+.bg-danger {
+  margin-left: -75px;
+  margin-top: 30px;
 }
 
-.contenedor-map{
-    .map{
-         position: relative;
-         width: 80px;  
-         margin-left: 50px;
-         z-index: 1;
-         filter: drop-shadow(0 0 0 .1px rgba(0, 0, 0, 0.2)); 
-         box-shadow: 0 0 10px rgba(185, 15, 15, 0.3);
-         /* box-shadow: 3px 3px 0 0 rgba(80, 12, 12, 0.3); No guta*/
-
-    }
+.contenedor-map {
+  .map {
+    position: relative;
+    width: 80px;
+    margin-left: 50px;
+    z-index: 1;
+    filter: drop-shadow(0 0 0 0.1px rgba(0, 0, 0, 0.2));
+    box-shadow: 0 0 10px rgba(185, 15, 15, 0.3);
+    /* box-shadow: 3px 3px 0 0 rgba(80, 12, 12, 0.3); No guta*/
+  }
 }
 
+@media only screen and (max-width: 320px) {
+  .bi {
+    display: none;
+  }
+  .me-2 {
+    display: none;
+  }
+  .bg-danger {
+    display: none;
+  }
 
-@media only screen and (max-width:320px) {
-   .bi {
-    display:none;
-    }
-   .me-2{
-        display:none;
-    }
-    .bg-danger{
-        display:none;
-    }
+  .libretam {
+    width: 50%;
+  }
 }
 
-@media only screen and (max-width:425px) {
-    .bi {
-        display:none;
-        }
-       .me-2{
-            display:none;
-        }
-        .bg-danger{
-            display:none;
-        }
-    }
-    
-@media only screen and (max-width:525px) {
-    .bi {
-        display:none;
-        }
-       .me-2{
-            display:none;
-        }
-        .bg-danger{
-            display:none;
-        }
-    }
+@media only screen and (max-width: 425px) {
+  .bi {
+    display: none;
+  }
+  .me-2 {
+    display: none;
+  }
+  .bg-danger {
+    display: none;
+  }
+}
 
-  @media only screen and (max-width:768px) {
-    .bi {
-        display:none;
-        }
-       .me-2{
-            display:none;
-        }
-        .bg-danger{
-            display:none;
-        }
-    }
+@media only screen and (max-width: 525px) {
+  .bi {
+    display: none;
+  }
+  .me-2 {
+    display: none;
+  }
+  .bg-danger {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bi {
+    display: none;
+  }
+  .me-2 {
+    display: none;
+  }
+  .bg-danger {
+    display: none;
+  }
+}
